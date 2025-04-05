@@ -424,3 +424,67 @@ body {
     }
 
 }
+@media (max-width: 400px){
+
+    .wrapper{
+        height: 600px;
+    }
+    .info-text img
+    {
+        height: 200px;
+        width: 250px;
+        margin: 0 -150px;
+    }
+    .info-text.login h2
+    {
+        margin: 0 -80px;
+        text-align: left;
+        font-size: 30px;
+    }
+    .info-text.login h1
+    {
+        margin: 0 -80px;
+        text-align: left;
+        font-size: 30px;
+    }
+    .info-text.login p{
+        text-align: left;
+        margin: 0 -80px;
+    }
+    .info-text.register p{
+        text-align: left;
+        margin: 0 -5px;
+        color: #0ef;
+    }
+    .info-text.register h2
+    {
+        padding: -50px 0;
+        margin: 0 25px;
+        top: 50px;
+        color: #0ef;
+    }
+    .form-box.login h2
+    {
+        text-align: left;
+        margin: 0 -40px;
+        font-size: 30px;
+        padding: -50px 0;
+    }
+    
+    .wrapper .bg-animate
+    {
+        height: 1500px;
+    }
+    .wrapper .bg-animate2
+    {
+        height: 3500px;
+        width: 2000px;
+    }
+    .form-box.register
+    {
+        padding: 0 -10px;
+        margin: 0 100px;
+        top: 100px;
+
+    }
+}
