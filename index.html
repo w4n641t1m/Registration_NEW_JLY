@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="wrapper">
+        <span class="bg-animate"></span>
+        <span class="bg-animate2"></span>
+
+        <div class="form-box login">
+            <h2 class="animation" style="--i:0; --j:21;">Welcome</h2>
+            <h2 class="animation" style="--i:1; --j:22;">To</h2>
+            <h2 class="animation" style="--i:2; --j:23;">JESUS LOVES YOU</h2>
+            <form action="#"><!---
+                <div class="input-box animation" style="--i:1; --j:22;">
+                    <input type="text" required>
+                    <label>Email</label>
+                    <i class='bx bxs-envelope'></i>
+                </div>
+                <div class="input-box animation" style="--i:2; --j:23">
+                    <input type="password" required>
+                    <label>Password</label>
+                    <i class='bx bxs-lock-alt'></i>
+                </div>
+                <button type="submit" class="btn animation" style="--i:3; --j:24;">Login</button> -->
+                <div class="logreg-link animation" style="--i:4; --j:25;">
+                    <p>Click here to  register -> <a href="#" class="register-link">Sign Up</a></p>
+                </div>
+            </form>
+        </div>
+        <div class="info-text login">
+            <img src="images/JLY.png" class="animation" style="--i:-2; --j:19;">
+            <h1 class="animation" style="--i:-1; --j:19;">JLY</h1>
+            <h2 class="animation" style="--i:0; --j:20;">Event</h2>
+            <p class="animation" style="--i:1;--j:21;">2025</p>
+        </div>
+
+        <div class="form-box register">
+            <!--<h2 class="animation" style="--i:17; --j:0;">Register</h2>-->
+            <form method="POST" id="form" name="submit-to-google-sheet">
+                <input type="hidden" name="access_key" value="3cce0fb7-61d2-4129-be36-616b98d08317">
+                <div class="input-box animation" style="--i:18; --j:1;">
+                    <input type="text" name="name" required>
+                    <label>Full Name</label>
+                    <i class='bx bxs-user'></i>
+                </div>
+                <div class="input-box animation" style="--i:20; --j:3;">
+                    <input type="text" name="age" required>
+                    <label>Age</label>
+                    <i class='bx bxs-lock-alt'></i>
+                </div>
+                <div class="input-box animation" style="--i:19; --j:2;">
+                    <input type="email" name="email" required>
+                    <label>Email</label>
+                    <i class='bx bxs-envelope'></i>
+                </div>
+                <div class="input-box animation" style="--i:20; --j:3;">
+                    <input type="text" name="address" required>
+                    <label>Addres</label>
+                    <i class='bx bxs-lock-alt'></i>
+                </div>
+                <div class="input-box animation" style="--i:20; --j:3;">
+                    <input type="text" name="churchBranch" required>
+                    <label>Church Branch</label>
+                    <i class='bx bxs-lock-alt'></i>
+                </div>
+                <div class="input-box animation" style="--i:20; --j:3;">
+                    <input type="text" name="ministryPosition" required>
+                    <label>Ministry Position</label>
+                    <i class='bx bxs-lock-alt'></i>
+                </div>
+                <div class="input-box animation" style="--i:20; --j:3;">
+                    <input type="text" name="phone" required>
+                    <label>Mobile Number</label>
+                    <i class='bx bxs-lock-alt'></i>
+                </div>
+                <div class="input-box animation" style="--i:20; --j:3;">
+                    <input type="text" name="yearsInChurch" required>
+                    <label>Years in Church</label>
+                    <i class='bx bxs-lock-alt'></i>
+                </div>
+
+
+                <button type="submit" class="btn animation" style="--i:21; --j:4;">Sign Up</button>
+                <div class="logreg-link animation" style="--i:22; --j:5;">
+                    <p>You can go back by clicking -> <a href="#" class="login-link">back</a></p>
+                </div>
+                <div id="result"></div>
+            </form>
+        </div>
+        <div class="info-text register">
+            <h2 class="animation" style="--i:17; --j:0;">Registration</h2>
+            <p class="animation" style="--i:18; --j:1;">Please fill out</p>
+            <p class="animation" style="--i:18; --j:1;">the blank space</p>
+        </div>
+    </div>
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
