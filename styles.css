@@ -18,6 +18,7 @@ body {
     position: relative;
     width: 750px;
     height: 450px;
+    left: -55px;
     background: transparent;
     border: 2px solid #0ef;
     box-shadow: 0 0 25px #0ef;
@@ -347,6 +348,7 @@ body {
     .wrapper{
         width: 500px;
         height: 450px;
+        left: -45px;
     }
     .wrapper .bg-animate
     {
@@ -424,10 +426,77 @@ body {
     }
 
 }
+@media (max-width: 500px){
+    .wrapper{
+        height: 600px;
+        width: 350px;
+        left: -5px;
+    }
+    .info-text img
+    {
+        height: 200px;
+        width: 250px;
+        margin: 0 -170px;
+    }
+    .info-text.login h2
+    {
+        margin: 0 -100px;
+        text-align: left;
+        font-size: 30px;
+    }
+    .info-text.login h1
+    {
+        margin: 0 -100px;
+        text-align: left;
+        font-size: 30px;
+    }
+    .info-text.login p{
+        text-align: left;
+        margin: 0 -100px;
+    }
+    .info-text.register p{
+        text-align: left;
+        margin: 0 -5px;
+        color: #0ef;
+    }
+    .info-text.register h2
+    {
+        padding: -50px 0;
+        margin: 0 25px;
+        top: 50px;
+        color: #0ef;
+    }
+    .form-box.login h2
+    {
+        text-align: left;
+        margin: 0 -40px;
+        font-size: 30px;
+        padding: -50px 0;
+    }
+    
+    .wrapper .bg-animate
+    {
+        height: 1500px;
+    }
+    .wrapper .bg-animate2
+    {
+        height: 3500px;
+        width: 2000px;
+    }
+    .form-box.register
+    {
+        padding: 0 -10px;
+        margin: 0 100px;
+        top: 100px;
+
+    }
+}
 @media (max-width: 400px){
 
     .wrapper{
         height: 600px;
+        width: 300px;
+        left: -5px;
     }
     .info-text img
     {
